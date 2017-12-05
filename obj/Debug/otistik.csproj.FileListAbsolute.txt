@@ -1,0 +1,10 @@
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\bin\Debug\otistik.exe.config
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\bin\Debug\otistik.exe
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\bin\Debug\otistik.pdb
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.csprojResolveAssemblyReference.cache
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.Form1.resources
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.Properties.Resources.resources
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.renkCogunlugu.resources
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.csproj.GenerateResource.Cache
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.exe
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.pdb
