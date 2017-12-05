@@ -107,6 +107,8 @@ namespace otistik
             button1.Enabled = true;
             button2.Enabled = false;
             timer1.Stop();
+            pictureBox1.Enabled = false;
+
         }
 
         private void changeColors_Tick(object sender, EventArgs e)
