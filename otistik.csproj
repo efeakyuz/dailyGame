@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dörtİslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dörtİslem.Designer.cs">
+      <DependentUpon>Dörtİslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EsBulma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EsBulma.Designer.cs">
+      <DependentUpon>EsBulma.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +78,12 @@
     <Compile Include="renkCogunlugu.Designer.cs">
       <DependentUpon>renkCogunlugu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dörtİslem.resx">
+      <DependentUpon>Dörtİslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsBulma.resx">
+      <DependentUpon>EsBulma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="renkCogunlugu.resx">
       <DependentUpon>renkCogunlugu.cs</DependentUpon>
@@ -96,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Punch - Gaming Sound Effect %28HD%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tape Rewind - Gaming Sound Effect %28HD%29.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

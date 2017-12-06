@@ -39,5 +39,20 @@ namespace otistik
             islemiBul islem = new islemiBul();
             islem.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            EsBulma esbulma = new EsBulma();
+            esbulma.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            Dörtİslem dort = new Dörtİslem();
+            dort.Show();
+            this.Hide();
+        }
     }
 }

@@ -9,3 +9,16 @@ C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.csproj.Genera
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.exe
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.pdb
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.islemiBul.resources
+C:\Users\ysf_5\Desktop\dailyGame\bin\Debug\otistik.exe.config
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.exe
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.pdb
+C:\Users\ysf_5\Desktop\dailyGame\bin\Debug\otistik.exe
+C:\Users\ysf_5\Desktop\dailyGame\bin\Debug\otistik.pdb
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.csprojResolveAssemblyReference.cache
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.Form1.resources
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.islemiBul.resources
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.Properties.Resources.resources
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.renkCogunlugu.resources
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.csproj.GenerateResource.Cache
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.EsBulma.resources
+C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.Dörtİslem.resources
