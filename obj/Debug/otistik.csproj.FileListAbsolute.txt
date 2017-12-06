@@ -22,3 +22,5 @@ C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.renkCogunlugu.resources
 C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.csproj.GenerateResource.Cache
 C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.EsBulma.resources
 C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.Dörtİslem.resources
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.Dörtİslem.resources
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.EsBulma.resources
