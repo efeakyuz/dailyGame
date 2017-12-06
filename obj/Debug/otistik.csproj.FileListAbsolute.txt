@@ -8,3 +8,4 @@ C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.renkCogunlugu
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.csproj.GenerateResource.Cache
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.exe
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.pdb
+C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.islemiBul.resources

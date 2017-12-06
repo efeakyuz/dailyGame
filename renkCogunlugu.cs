@@ -24,6 +24,12 @@ namespace otistik
             label4.Text = score.ToString();
             button2.Enabled = false;
             progressBar1.Value = 100;
+            picsEnabled(false);
+            if(remainingProgress == 0 || timeRemaining == 0)
+            {
+                picsEnabled(false);
+                timer1.Stop();
+            }
         }
         
         public void game()
@@ -60,7 +66,27 @@ namespace otistik
                 pics[j].BackColor = colour2;
             }
         }
-        
+
+        public void picsEnabled(bool occ)
+        {
+            PictureBox[] pics = new PictureBox[15] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10, pictureBox11, pictureBox12, pictureBox13, pictureBox14, pictureBox15 };
+
+            foreach (PictureBox pic in pics)
+            {
+                pic.Enabled = occ;
+            }
+        }
+
+        public void picsColor(Color colour)
+        {
+            PictureBox[] pics = new PictureBox[15] { pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5, pictureBox6, pictureBox7, pictureBox8, pictureBox9, pictureBox10, pictureBox11, pictureBox12, pictureBox13, pictureBox14, pictureBox15 };
+
+            foreach (PictureBox pic in pics)
+            {
+                pic.BackColor = colour;
+            }
+        }
+
         public void check(PictureBox picture)
         {
             if (picture.BackColor == trueAnswer)
@@ -71,7 +97,14 @@ namespace otistik
             else
             {
                 timeRemaining = timeRemaining - 5;
-                remainingProgress = remainingProgress - 8.3;
+                if (remainingProgress - 1.66 < 0)
+                {
+                    remainingProgress = 0;
+                }
+                else
+                {
+                    remainingProgress = remainingProgress - 8.33;
+                }
             }
         }
 
@@ -86,6 +119,10 @@ namespace otistik
             button1.Enabled = false;
             button2.Enabled = true;
             game();
+            label2.Visible = false;
+
+            picsEnabled(true);
+
         }
         
 
@@ -94,11 +131,24 @@ namespace otistik
             timeHolder.Text = timeRemaining.ToString();
             timeRemaining = timeRemaining - 1;
             progressBar1.Value = Convert.ToInt32(remainingProgress); 
-            remainingProgress = remainingProgress - 1.66;
-            if(timeRemaining == -1)
+            if (remainingProgress - 1.66 < 0)
+            {
+                remainingProgress = 0;
+            } else
+            {
+                remainingProgress = remainingProgress - 1.66;
+            }
+            
+            if(timeRemaining < 0)
             {
                 timer1.Stop();
                 progressBar1.Value = 0;
+                picsEnabled(false);
+                picsColor(Color.LightGray);
+                button1.Enabled = true;
+                button2.Enabled = false;
+                timeHolder.Text = "Süre Bitti!";
+                label2.Visible = true;
             }
         }
 
@@ -107,8 +157,7 @@ namespace otistik
             button1.Enabled = true;
             button2.Enabled = false;
             timer1.Stop();
-            pictureBox1.Enabled = false;
-
+            picsEnabled(false);
         }
 
         private void changeColors_Tick(object sender, EventArgs e)
