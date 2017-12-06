@@ -16,5 +16,10 @@ namespace otistik
         {
             InitializeComponent();
         }
+
+        private void startGame_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
