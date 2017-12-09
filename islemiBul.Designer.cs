@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.sayi1 = new System.Windows.Forms.Label();
             this.islem = new System.Windows.Forms.Label();
             this.sayi2 = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timeHolder = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // sayi1
@@ -206,6 +208,10 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Süre:";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // islemiBul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -256,5 +262,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label timeHolder;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
