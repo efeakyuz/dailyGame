@@ -27,12 +27,7 @@ namespace otistik
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            renkCogunlugu renk = new renkCogunlugu();
-            renk.Show();
-
-        }
+       
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -47,12 +42,51 @@ namespace otistik
             this.Hide();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void bunifuTileButton2_Click(object sender, EventArgs e)
+        {
+            renkCogunlugu renk = new renkCogunlugu();
+            renk.Show();
+        }
+
+        private void bunifuTileButton3_Click(object sender, EventArgs e)
+        {
+            islemiBul islem = new islemiBul();
+            islem.Show();
+        }
+
+        private void bunifuTileButton4_Click(object sender, EventArgs e)
+        {
             Dörtİslem dort = new Dörtİslem();
             dort.Show();
-            this.Hide();
         }
+
+        private void bunifuTileButton5_Click(object sender, EventArgs e)
+        {
+            EsBulma esbulma = new EsBulma();
+            esbulma.Show();
+        }
+
+        private void menuBtn_Click(object sender, EventArgs e)
+        {
+            if (panel1.Width == 44)
+            {
+                panel1.Visible = false;
+                panel1.Width = 153;
+                animator.ShowSync(panel1);
+            }
+            else 
+            {
+                panel1.Visible = false;
+                panel1.Width=44;
+                animator.ShowSync(panel1);
+            }
+        }
+
+        
     }
 }
