@@ -33,8 +33,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label2 = new System.Windows.Forms.Label();
             this.header = new System.Windows.Forms.Panel();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -42,13 +42,13 @@
             this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.menuBtn = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.animator = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.header.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuBtn)).BeginInit();
             this.panel2.SuspendLayout();
@@ -75,6 +75,20 @@
             this.header.Size = new System.Drawing.Size(772, 40);
             this.header.TabIndex = 7;
             // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.animator.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(12, 5);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(32, 31);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 1;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            // 
             // bunifuImageButton1
             // 
             this.bunifuImageButton1.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -89,20 +103,6 @@
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.animator.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(12, 5);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(32, 31);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 1;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
             // 
             // bunifuDragControl1
             // 
@@ -227,6 +227,21 @@
             this.panel1.Size = new System.Drawing.Size(155, 453);
             this.panel1.TabIndex = 13;
             // 
+            // menuBtn
+            // 
+            this.menuBtn.BackColor = System.Drawing.Color.Beige;
+            this.animator.SetDecoration(this.menuBtn, BunifuAnimatorNS.DecorationType.None);
+            this.menuBtn.Image = ((System.Drawing.Image)(resources.GetObject("menuBtn.Image")));
+            this.menuBtn.ImageActive = null;
+            this.menuBtn.Location = new System.Drawing.Point(3, 6);
+            this.menuBtn.Name = "menuBtn";
+            this.menuBtn.Size = new System.Drawing.Size(30, 30);
+            this.menuBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.menuBtn.TabIndex = 1;
+            this.menuBtn.TabStop = false;
+            this.menuBtn.Zoom = 10;
+            this.menuBtn.Click += new System.EventHandler(this.menuBtn_Click);
+            // 
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.DarkSlateGray;
@@ -251,11 +266,11 @@
             this.bunifuFlatButton1.IconZoom = 80D;
             this.bunifuFlatButton1.IsTab = true;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 121);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Beige;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Beige;
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.Beige;
             this.bunifuFlatButton1.selected = false;
             this.bunifuFlatButton1.Size = new System.Drawing.Size(153, 35);
             this.bunifuFlatButton1.TabIndex = 0;
@@ -263,21 +278,6 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Olive;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // menuBtn
-            // 
-            this.menuBtn.BackColor = System.Drawing.Color.Beige;
-            this.animator.SetDecoration(this.menuBtn, BunifuAnimatorNS.DecorationType.None);
-            this.menuBtn.Image = ((System.Drawing.Image)(resources.GetObject("menuBtn.Image")));
-            this.menuBtn.ImageActive = null;
-            this.menuBtn.Location = new System.Drawing.Point(3, 6);
-            this.menuBtn.Name = "menuBtn";
-            this.menuBtn.Size = new System.Drawing.Size(30, 30);
-            this.menuBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.menuBtn.TabIndex = 1;
-            this.menuBtn.TabStop = false;
-            this.menuBtn.Zoom = 10;
-            this.menuBtn.Click += new System.EventHandler(this.menuBtn_Click);
             // 
             // panel2
             // 
@@ -331,8 +331,8 @@
             this.Text = "Anasayfa";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.header.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.menuBtn)).EndInit();
             this.panel2.ResumeLayout(false);
