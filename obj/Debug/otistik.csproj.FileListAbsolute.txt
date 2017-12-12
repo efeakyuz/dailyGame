@@ -24,3 +24,6 @@ C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.EsBulma.resources
 C:\Users\ysf_5\Desktop\dailyGame\obj\Debug\otistik.Dörtİslem.resources
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.Dörtİslem.resources
 C:\Users\emre\Desktop\ozelEgitim\otistik\otistik\obj\Debug\otistik.EsBulma.resources
+C:\Users\EFE\Documents\GitHub\dailyGame\bin\Debug\otistik.exe.config
+C:\Users\EFE\Documents\GitHub\dailyGame\obj\Debug\otistik.exe
+C:\Users\EFE\Documents\GitHub\dailyGame\obj\Debug\otistik.pdb
