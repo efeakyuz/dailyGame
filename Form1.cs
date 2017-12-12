@@ -71,22 +71,6 @@ namespace otistik
             esbulma.Show();
         }
 
-        private void menuBtn_Click(object sender, EventArgs e)
-        {
-            if (panel1.Width == 44)
-            {
-                panel1.Visible = false;
-                panel1.Width = 153;
-                animator.ShowSync(panel1);
-            }
-            else 
-            {
-                panel1.Visible = false;
-                panel1.Width=44;
-                animator.ShowSync(panel1);
-            }
-        }
-
         
     }
 }
