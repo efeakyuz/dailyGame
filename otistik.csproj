@@ -87,12 +87,6 @@
     <Compile Include="renkCogunlugu.Designer.cs">
       <DependentUpon>renkCogunlugu.cs</DependentUpon>
     </Compile>
-    <Compile Include="saymaOyunu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="saymaOyunu.Designer.cs">
-      <DependentUpon>saymaOyunu.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Dörtİslem.resx">
       <DependentUpon>Dörtİslem.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,9 +111,6 @@
     </Compile>
     <EmbeddedResource Include="renkCogunlugu.resx">
       <DependentUpon>renkCogunlugu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="saymaOyunu.resx">
-      <DependentUpon>saymaOyunu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

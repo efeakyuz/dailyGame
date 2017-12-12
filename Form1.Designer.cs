@@ -103,7 +103,7 @@
             this.bunifuTileButton1.ImageZoom = 50;
             this.bunifuTileButton1.LabelPosition = 48;
             this.bunifuTileButton1.LabelText = "İlişkiyi Bul";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(155, 257);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(481, 129);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(135, 135);
@@ -122,7 +122,7 @@
             this.bunifuTileButton2.ImageZoom = 40;
             this.bunifuTileButton2.LabelPosition = 48;
             this.bunifuTileButton2.LabelText = "Renk Çoğunluğu";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(152, 127);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(447, 259);
             this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(169, 135);
@@ -142,7 +142,7 @@
             this.bunifuTileButton3.ImageZoom = 50;
             this.bunifuTileButton3.LabelPosition = 48;
             this.bunifuTileButton3.LabelText = "İşlemi Bul";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(496, 127);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(149, 259);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(135, 135);
@@ -162,7 +162,7 @@
             this.bunifuTileButton4.ImageZoom = 50;
             this.bunifuTileButton4.LabelPosition = 48;
             this.bunifuTileButton4.LabelText = "Dört İşlem";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(496, 257);
+            this.bunifuTileButton4.Location = new System.Drawing.Point(149, 129);
             this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton4.Name = "bunifuTileButton4";
             this.bunifuTileButton4.Size = new System.Drawing.Size(135, 135);
@@ -182,7 +182,7 @@
             this.bunifuTileButton5.ImageZoom = 48;
             this.bunifuTileButton5.LabelPosition = 48;
             this.bunifuTileButton5.LabelText = "Eş Bulma";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(335, 127);
+            this.bunifuTileButton5.Location = new System.Drawing.Point(320, 129);
             this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton5.Name = "bunifuTileButton5";
             this.bunifuTileButton5.Size = new System.Drawing.Size(135, 135);
@@ -199,15 +199,14 @@
             this.bunifuTileButton6.ForeColor = System.Drawing.Color.Black;
             this.bunifuTileButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton6.Image")));
             this.bunifuTileButton6.ImagePosition = 23;
-            this.bunifuTileButton6.ImageZoom = 48;
+            this.bunifuTileButton6.ImageZoom = 50;
             this.bunifuTileButton6.LabelPosition = 48;
-            this.bunifuTileButton6.LabelText = "Sayma Oyunu";
-            this.bunifuTileButton6.Location = new System.Drawing.Point(336, 257);
+            this.bunifuTileButton6.LabelText = "Yardım";
+            this.bunifuTileButton6.Location = new System.Drawing.Point(320, 259);
             this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton6.Name = "bunifuTileButton6";
-            this.bunifuTileButton6.Size = new System.Drawing.Size(145, 135);
+            this.bunifuTileButton6.Size = new System.Drawing.Size(135, 135);
             this.bunifuTileButton6.TabIndex = 13;
-            this.bunifuTileButton6.Click += new System.EventHandler(this.bunifuTileButton6_Click);
             // 
             // Form1
             // 
