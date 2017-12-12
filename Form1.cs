@@ -71,6 +71,12 @@ namespace otistik
             esbulma.Show();
         }
 
+        private void bunifuTileButton6_Click(object sender, EventArgs e)
+        {
+            saymaOyunu sayma = new saymaOyunu();
+            sayma.Show();
+        }
+
         
     }
 }

@@ -39,6 +39,7 @@
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
             this.header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
@@ -102,7 +103,7 @@
             this.bunifuTileButton1.ImageZoom = 50;
             this.bunifuTileButton1.LabelPosition = 48;
             this.bunifuTileButton1.LabelText = "İlişkiyi Bul";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(124, 253);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(155, 257);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(135, 135);
@@ -121,7 +122,7 @@
             this.bunifuTileButton2.ImageZoom = 40;
             this.bunifuTileButton2.LabelPosition = 48;
             this.bunifuTileButton2.LabelText = "Renk Çoğunluğu";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(121, 123);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(152, 127);
             this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(169, 135);
@@ -141,7 +142,7 @@
             this.bunifuTileButton3.ImageZoom = 50;
             this.bunifuTileButton3.LabelPosition = 48;
             this.bunifuTileButton3.LabelText = "İşlemi Bul";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(465, 123);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(496, 127);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(135, 135);
@@ -161,7 +162,7 @@
             this.bunifuTileButton4.ImageZoom = 50;
             this.bunifuTileButton4.LabelPosition = 48;
             this.bunifuTileButton4.LabelText = "Dört İşlem";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(465, 253);
+            this.bunifuTileButton4.Location = new System.Drawing.Point(496, 257);
             this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton4.Name = "bunifuTileButton4";
             this.bunifuTileButton4.Size = new System.Drawing.Size(135, 135);
@@ -181,12 +182,32 @@
             this.bunifuTileButton5.ImageZoom = 48;
             this.bunifuTileButton5.LabelPosition = 48;
             this.bunifuTileButton5.LabelText = "Eş Bulma";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(304, 123);
+            this.bunifuTileButton5.Location = new System.Drawing.Point(335, 127);
             this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton5.Name = "bunifuTileButton5";
             this.bunifuTileButton5.Size = new System.Drawing.Size(135, 135);
             this.bunifuTileButton5.TabIndex = 12;
             this.bunifuTileButton5.Click += new System.EventHandler(this.bunifuTileButton5_Click);
+            // 
+            // bunifuTileButton6
+            // 
+            this.bunifuTileButton6.BackColor = System.Drawing.Color.Azure;
+            this.bunifuTileButton6.color = System.Drawing.Color.Azure;
+            this.bunifuTileButton6.colorActive = System.Drawing.Color.LightBlue;
+            this.bunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton6.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bunifuTileButton6.ForeColor = System.Drawing.Color.Black;
+            this.bunifuTileButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton6.Image")));
+            this.bunifuTileButton6.ImagePosition = 23;
+            this.bunifuTileButton6.ImageZoom = 48;
+            this.bunifuTileButton6.LabelPosition = 48;
+            this.bunifuTileButton6.LabelText = "Sayma Oyunu";
+            this.bunifuTileButton6.Location = new System.Drawing.Point(336, 257);
+            this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.bunifuTileButton6.Name = "bunifuTileButton6";
+            this.bunifuTileButton6.Size = new System.Drawing.Size(145, 135);
+            this.bunifuTileButton6.TabIndex = 13;
+            this.bunifuTileButton6.Click += new System.EventHandler(this.bunifuTileButton6_Click);
             // 
             // Form1
             // 
@@ -194,6 +215,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(772, 493);
+            this.Controls.Add(this.bunifuTileButton6);
             this.Controls.Add(this.bunifuTileButton3);
             this.Controls.Add(this.bunifuTileButton5);
             this.Controls.Add(this.header);
@@ -223,6 +245,7 @@
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton4;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton5;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton6;
     }
 }
 

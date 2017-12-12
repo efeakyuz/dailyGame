@@ -16,5 +16,11 @@ namespace otistik
         {
             InitializeComponent();
         }
+
+        private void saymaOyunu_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
